@@ -11,13 +11,11 @@ body, html {
     height:100%;
     font-family:aldrich;
     overflow-x:hidden;
-    background-color:$bg;
+
 }
 
 .hire {
-    -webkit-box-shadow: 5px -5px 18px 6px rgba(184,180,184,1);
-    -moz-box-shadow: 5px -5px 18px 6px rgba(184,180,184,1);
-    box-shadow: 5px -5px 18px 6px rgba(184,180,184,1);
+  
     position:fixed;
     bottom:1rem;
     left:1rem;
@@ -98,8 +96,7 @@ body, html {
          display:flex;
          justify-content: center;
          align-items: center;
-         padding-left:1rem;
-         padding-right:1rem;
+        
        
 
          .nav {
@@ -137,8 +134,8 @@ body, html {
 
  
 
-:root {
-    --gutter: 20px;
+ :root {
+    --gutter: 10px;
   }
   
   .app {
@@ -188,7 +185,7 @@ body, html {
     overflow-y: scroll;
   }
   
-  .hs > li,
+
 
   .item {
     scroll-snap-align: center;
@@ -199,8 +196,10 @@ body, html {
     align-items: center;
     background: #222222;
     border-radius: 8px;
-    color:white;
-    background-color:#EBEBEB;
+    color:#222222;
+    background-color:rgb(245, 245, 245);
+
+    
 
 
   }
